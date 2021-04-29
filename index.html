@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="inf286 main.css">
+        <style>
+            body{
+                background-image: url('homepagepic2.png');
+                height: 750px;
+                background-size: 1500px 900px;
+                background-repeat: no-repeat;
+            }
+            .container{
+                    display:flex;
+                    flex-wrap:wrap;
+                    justify-content: left;
+                    margin:auto;
+            }
+            @media(max-width:1000px){
+                .container{
+                    background-image:linear-gradient(55deg, cadetblue 0%, #a2acb3 51%, pink 85%);
+                }
+                .intro{
+                    margin-top: 300px;
+                }
+            }
+            .p1{
+                padding-left: 6em;
+                width:300px !important;
+                font-size:large;
+                word-spacing: 3px;
+                line-height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="item">
+                    <div>
+                        <a href="index.html">
+                            <img id="logo" src="cf2.png">
+                        </a>
+                    </div>
+                    <div class="page">
+                        <a href="AboutMe.html" class="page">About </a>
+                    </div>
+                    <div class="page">
+                        <a href="Resume.html" class="page">Resume </a>
+                    </div>
+                    <div class="page">
+                        <a href="Project.html" class="page">Gallery </a>
+                    </div>
+                    <div class="page">
+                        <a href="Contact.html" class="page">Contact</a>
+                    </div>
+                </div> 
+            </header>
+            <div class="item intro" style="flex-direction: column;">
+                <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 40px; padding-left: 2.5em; font-weight: bold">hello, it's me,<br><br> C A R L E E .<br>____________ </p>
+                <p class="p1">                   
+                    A freshman Computer Science major seeking to expand knowledge in the field. Hopes to pursue user-interface design and explore graphic design applications to change the way people interact with technology.
+                </p>
+            </div>
+        </div>
+        <!-- <footer>
+            <a href='https://media4.s-nbcnews.com/i/newscms/2018_20/1339472/puppy-cute-today-180515-tease_48dc61b6a51fd4e847b6cc01abba9a1d.jpg' class="foot" target="_blank">Facebook |</a>
+            </a>
+            <a href='https://i.pinimg.com/originals/10/82/4f/10824f4de2ad6e1175b9005b83e525c5.jpg' class="foot" target="_blank">Snapchat |</a>
+            </a>
+            <a href='https://hips.hearstapps.com/countryliving.cdnds.net/17/47/1511194376-cavachon-puppy-christmas.jpg' class="foot" target="_blank">Instagram |</a>
+            </a>
+            <a href='https://www.cutepuppiesnow.com/wp-content/uploads/2017/09/Dog-Listening-to-Music-1-1160x665.jpg' class="foot" target="_blank">Spotify |</a>
+            </a>
+            <a href='https://www.zarias.com/wp-content/uploads/2015/12/61-cute-puppies.jpg' class="foot" target="_blank">Twitter</a>
+            </a>
+        </footer> -->
+    </body>
+</html>
